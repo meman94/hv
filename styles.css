@@ -67,6 +67,10 @@ BODY {
     text-align: right;
 }
 
+#portada{
+    width:50%;
+}
+
 .w3-table-all {
     border: 1px solid #ccc;
     margin: 0 auto;
