@@ -1,0 +1,134 @@
+BODY {
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin: 10 0 10 0px;
+    text-align: center;
+}
+
+#titulo {
+    font-family: Georgia, serif;
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    word-spacing: 0.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#frase {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    word-spacing: 0.2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#contenedor {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+#cabecera {
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 3 3 3 10px;
+}
+
+#cuerpo {
+    margin: 10 0 10 0px;
+}
+
+#lateral {
+    width: 50%;
+    float: left;
+}
+
+#lateral a {
+    color: #3333cc;
+    text-decoration: none;
+}
+
+#principal {
+    width: 100%;
+    padding: 4 4 4 4px;
+}
+
+#pie {
+    padding: 3 10 3 10px;
+    text-align: right;
+}
+
+.w3-table-all {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.w3-table-all tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.w3-table-all tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.w3-table-all tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.w3-table-all td,
+.w3-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+.w3-table-all th:first-child,
+.w3-table-all td:first-child {
+    padding-left: 16px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+/* On mouse-over */
+
+.btn:hover {
+    background: #eee;
+}
+
+.success {
+    color: green;
+}
+
+.info {
+    color: dodgerblue;
+}
+
+.warning {
+    color: orange;
+}
+
+.danger {
+    color: red;
+}
+
+.default {
+    color: black;
+}
